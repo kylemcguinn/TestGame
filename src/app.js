@@ -79,6 +79,7 @@ var HelloWorldLayer = cc.Layer.extend({
 
         cloudMoveFinished();
 
+
         // add orb
         this.orb = new cc.Sprite(res.Orb_png);
         this.orb.attr({
